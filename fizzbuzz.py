@@ -1,11 +1,11 @@
-for fizzbuzz in range(50):
-    if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
-        print("fizzbuzz")
+for fizzbuzz in range(100):
+    if fizzbuzz % 4 == 0 and fizzbuzz % 7 == 0:
+        print("FIZZBUZZ")
         continue
-    elif fizzbuzz % 3 == 0:
-        print("fizz")
+    elif fizzbuzz % 4 == 0:
+        print("FIZZ")
         continue
-    elif fizzbuzz % 5 == 0:
-        print("buzz")
+    elif fizzbuzz % 7 == 0:
+        print("BUZZ")
         continue
     print(fizzbuzz)
